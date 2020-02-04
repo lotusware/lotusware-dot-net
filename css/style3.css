@@ -1,0 +1,149 @@
+html{
+
+  scroll-behavior: smooth;
+}
+
+.gradient-bkg {
+
+	background: linear-gradient(-20deg,#361A30, #3E253A,#5D2236, #73091D); 
+	background-size: 500% 2000%;
+	-webkit-animation: Gradient 15s ease infinite ;
+	-moz-animation: Gradient 15s ease infinite ;
+	animation: Gradient 15s ease infinite ;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50% 
+	}
+	50% {
+		background-position: 100% 50% 
+	}
+	100% {
+		background-position: 0% 50% 
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50% 
+	}
+	50% {
+		background-position: 100% 50% 
+	}
+	100% {
+		background-position: 0% 50% 
+	}
+}
+
+.gradient-bkg2 {
+
+	background: linear-gradient(-20deg,rgb(38, 26, 54), rgb(37, 37, 62),rgb(34, 67, 93), rgb(9, 115, 101)); 
+	background-size: 500% 2000%;
+	-webkit-animation: Gradient 15s ease infinite ;
+	-moz-animation: Gradient 15s ease infinite ;
+	animation: Gradient 15s ease infinite ;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50% 
+	}
+	50% {
+		background-position: 100% 50% 
+	}
+	100% {
+		background-position: 0% 50% 
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50% 
+	}
+	50% {
+		background-position: 100% 50% 
+	}
+	100% {
+		background-position: 0% 50% 
+	}
+}
+
+
+
+
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding:0px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .header a.social {
+    padding: 5px;
+    font-size: 30px; 
+  }
+
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+ 
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: #C60039;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+  @media screen and (max-width: 500px) {
+    .header a.button {
+      display:none;
+      visibility: hidden;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
+
+
+h5
+{
+    letter-spacing:2px;
+    color: #C60039;
+}
+
+.eraflux{
+background-image: url("../img/eraflux_bg.jpg"),linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+background-attachment: fixed;
+
+}
+
+.blightworld{
+    background-image: url("../img/blightworld_bg.jpg"),linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+    background-attachment: fixed;
+	}
+	
+	.honeytoast{
+		background-image: url("../img/honeytoast_bg.jpg"),linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+		background-attachment: fixed;
+		}
