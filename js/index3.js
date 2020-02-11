@@ -216,29 +216,7 @@ Vue.component('social', {
 Vue.component('vue-header', {
    template: `
 
-<header style="position: -webkit-sticky; position: sticky; top: 0px; z-index:2000000; box-shadow:0px -20px 50px black">
-<div class="container">
-  <nav class="navbar navbar-expand-md no-gutters">
-    <div class="col-2 text-left nav-link">
-      <a href="http://lotusware.net">
 
-        <svg-logo style="margin-top:-2px; margin-left:-30px; height:44px;"></svg-logo>
-
-      </a>
-    </div>
-
-
-    <ul class="navbar-nav col-2 justify-content-end d-none d-md-flex" style="font-size:24px;">
-      <li class="nav-item">
-        <a class="nav-link" href="https://twitter.com/eraflux" target="_blank"><i class="fab fa-twitter"></i></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.twitch.tv/lotusware" target="_blank"><i class="fab fa-twitch"></i></a>
-      </li>
-    </ul>
-  </nav>
-</div>
-</header>
 `
 })
 
