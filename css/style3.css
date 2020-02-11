@@ -3,74 +3,6 @@ html{
   scroll-behavior: smooth;
 }
 
-.gradient-bkg {
-
-	background: linear-gradient(-20deg,#361A30, #3E253A,#5D2236, #73091D); 
-	background-size: 500% 2000%;
-	-webkit-animation: Gradient 15s ease infinite ;
-	-moz-animation: Gradient 15s ease infinite ;
-	animation: Gradient 15s ease infinite ;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50% 
-	}
-	50% {
-		background-position: 100% 50% 
-	}
-	100% {
-		background-position: 0% 50% 
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50% 
-	}
-	50% {
-		background-position: 100% 50% 
-	}
-	100% {
-		background-position: 0% 50% 
-	}
-}
-
-.gradient-bkg2 {
-
-	background: linear-gradient(-20deg,rgb(38, 26, 54), rgb(37, 37, 62),rgb(34, 67, 93), rgb(9, 115, 101)); 
-	background-size: 500% 2000%;
-	-webkit-animation: Gradient 15s ease infinite ;
-	-moz-animation: Gradient 15s ease infinite ;
-	animation: Gradient 15s ease infinite ;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50% 
-	}
-	50% {
-		background-position: 100% 50% 
-	}
-	100% {
-		background-position: 0% 50% 
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50% 
-	}
-	50% {
-		background-position: 100% 50% 
-	}
-	100% {
-		background-position: 0% 50% 
-	}
-}
-
-
-
 
 /* Style the header with a grey background and some padding */
 .header {
@@ -132,18 +64,18 @@ h5
     color: #C60039;
 }
 
-.eraflux{
-background-image: url("../img/eraflux_bg.jpg"),linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+#eraflux{
+background-image: url("../img/eraflux_bg.jpg");
 background-attachment: fixed;
 
 }
 
-.blightworld{
-    background-image: url("../img/blightworld_bg.jpg"),linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+#blightworld{
+    background-image: url("../img/blightworld_bg.jpg");
     background-attachment: fixed;
 	}
 	
-	.honeytoast{
-		background-image: url("../img/honeytoast_bg.jpg"),linear-gradient(to top, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+#honeytoast{
+		background-image: url("../img/honeytoast_bg.jpg");
 		background-attachment: fixed;
 		}
