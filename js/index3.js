@@ -228,24 +228,12 @@ Vue.component('vue-header', {
     </div>
 
 
-
-   <div class="collapse navbar-collapse justify-content-center col-md-8" id="navbarNav4">
-      <ul class="navbar-nav justify-content-center"><!-- 
-        <li class="nav-item">
-          <a class="nav-link" href="#PROJECTS">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#DESIGN">Design</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#AUDIO">Audio</a>
-        </li>-->
-      </ul>
-    </div> 
-
     <ul class="navbar-nav col-2 justify-content-end d-none d-md-flex" style="font-size:24px;">
       <li class="nav-item">
         <a class="nav-link" href="https://twitter.com/eraflux" target="_blank"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.twitch.tv/lotusware" target="_blank"><i class="fab fa-twitch"></i></a>
       </li>
     </ul>
   </nav>
