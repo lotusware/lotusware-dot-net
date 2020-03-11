@@ -6,12 +6,17 @@ and (max-width : 399px) {
     .logo{display:none;}
     .logomark{height:50px}
     .neau{padding-left:5px;padding-right:5px; box-shadow:none; background:transparent;margin-left:2px;margin-right:2px;}
-    .lead{font-size:20px;}
-    section{width:80%;
+    .lead{font-size:16px;}
+    .note{font-size: 12px}
+    section{width:100%;
         transform:skew(0deg,0deg);
     margin-left:0px;margin-right:0px;}
         .section-logo,.section-category,.lead{  transform:skew(0deg,0deg);}
         .section-category, .section-logo,.lead, .note, button{padding: 6px 9px;}
+        section{  padding: 10px 15px;
+            margin: 10px 15px}
+            .bg{padding:0 0 0 0;}
+
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -25,11 +30,14 @@ and (max-width : 599px) {
     .neau{padding-left:5px;padding-right:5px; box-shadow:none; background:transparent;margin-left:2px;margin-right:2px;}
     .lead{font-size:16px;}
     .note{font-size: 12px}
-    section{width:80%;
+    section{width:100%;
         transform:skew(0deg,0deg);
     margin-left:0px;margin-right:0px;}
     .section-logo,.section-category,.lead{  transform:skew(0deg,0deg);}
-    .section-category, .section-logo,.lead, .note, button{padding: 6px 9px;}
+    .section-category, .section-logo,.lead, .note, section, button{padding: 6px 9px;}
+    section{  padding: 20px 30px;
+        margin: 20px 30px;}
+    .bg{padding-left:10px; padding-right:10px;}
 }
 
 
@@ -41,10 +49,11 @@ and (max-width : 899px) {
     .logo{display:none;}
     .logomark{height:50px}
     .lead{font-size:18px;}
-    section{width:80%;
+    section{width:100%;
         transform:skew(0deg,0deg);
     margin-left:0px;margin-right:0px;}
     .section-logo,.section-category,.lead{  transform:skew(0deg,0deg);}
+    section{  padding: 30px 45px;}
 }
 
 /* iPads (portrait and landscape) ----------- */
