@@ -17,6 +17,11 @@ and (max-width : 399px) {
             margin: 10px 15px}
             .bg{padding:0 0 0 0;}
 
+
+            .blightworld{background: url('../img/blightworld_bg.jpg') no-repeat center center;}
+            .eraflux{background: url('../img/eraflux_bg.jpg') no-repeat center center;}
+            .honeytoast{background: url('../img/honeytoast_bg.jpg') no-repeat center center;}
+
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -38,6 +43,11 @@ and (max-width : 599px) {
     section{  padding: 20px 30px;
         margin: 20px 30px;}
     .bg{padding-left:10px; padding-right:10px;}
+
+
+    .blightworld{background: url('../img/blightworld_bg.jpg') no-repeat center center;}
+    .eraflux{background: url('../img/eraflux_bg.jpg') no-repeat center center;}
+    .honeytoast{background: url('../img/honeytoast_bg.jpg') no-repeat center center;}
 }
 
 
@@ -54,6 +64,11 @@ and (max-width : 899px) {
     margin-left:0px;margin-right:0px;}
     .section-logo,.section-category,.lead{  transform:skew(0deg,0deg);}
     section{  padding: 30px 45px;}
+
+
+    .blightworld{background: url('../img/blightworld_bg.jpg') no-repeat center center;}
+    .eraflux{background: url('../img/eraflux_bg.jpg') no-repeat center center;}
+    .honeytoast{background: url('../img/honeytoast_bg.jpg') no-repeat center center;}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -65,6 +80,20 @@ and (max-width : 1099px) {
     .logomark{display:none;}
     .lead{font-size:18px;}
     section{width:70%;}
+
+    .bg{transition: all 0.3s ease-out;}
+
+    .bg:hover{transform:scale(1.02);transition: all 0.8s ease-out;}
+    
+        .blightworld{background: url('../img/blightworld_bg_blur.jpg') no-repeat center center;}
+        .blightworld:hover{background: url('../img/blightworld_bg.jpg') no-repeat center center;}
+    
+        .eraflux{background: url('../img/eraflux_bg_blur.jpg') no-repeat center center;}
+        .eraflux:hover{background: url('../img/eraflux_bg.jpg') no-repeat center center;}
+    
+        .honeytoast{background: url('../img/honeytoast_bg_blur.jpg') no-repeat center center;}
+        .honeytoast:hover{background: url('../img/honeytoast_bg.jpg') no-repeat center center;}
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -76,6 +105,20 @@ and (max-width : 1299px) {
     .logomark{display:none;}
     .lead{font-size:20px;}
     section{width:60%;}
+
+    .bg{transition: all 0.3s ease-out;}
+
+    .bg:hover{transform:scale(1.02);transition: all 0.8s ease-out;}
+    
+        .blightworld{background: url('../img/blightworld_bg_blur.jpg') no-repeat center center;}
+        .blightworld:hover{background: url('../img/blightworld_bg.jpg') no-repeat center center;}
+    
+        .eraflux{background: url('../img/eraflux_bg_blur.jpg') no-repeat center center;}
+        .eraflux:hover{background: url('../img/eraflux_bg.jpg') no-repeat center center;}
+    
+        .honeytoast{background: url('../img/honeytoast_bg_blur.jpg') no-repeat center center;}
+        .honeytoast:hover{background: url('../img/honeytoast_bg.jpg') no-repeat center center;}
+
 }
 
 
@@ -86,6 +129,20 @@ and (max-width : 1499px) {
     .media-1100{display:none;}
     .logomark{display:none;}
     .lead{font-size: 20px;}
+
+    .bg{transition: all 0.3s ease-out;}
+
+    .bg:hover{transform:scale(1.02);transition: all 0.8s ease-out;}
+    
+        .blightworld{background: url('../img/blightworld_bg_blur.jpg') no-repeat center center;}
+        .blightworld:hover{background: url('../img/blightworld_bg.jpg') no-repeat center center;}
+    
+        .eraflux{background: url('../img/eraflux_bg_blur.jpg') no-repeat center center;}
+        .eraflux:hover{background: url('../img/eraflux_bg.jpg') no-repeat center center;}
+    
+        .honeytoast{background: url('../img/honeytoast_bg_blur.jpg') no-repeat center center;}
+        .honeytoast:hover{background: url('../img/honeytoast_bg.jpg') no-repeat center center;}
+
 }
 
 /* Desktops and laptops ----------- */
@@ -93,5 +150,19 @@ and (max-width : 1499px) {
 and (min-width : 1500px) {
     .media-1100{display:none;}
     .logomark{display:none;}
+
+
+    .bg{transition: all 0.3s ease-out;}
+
+.bg:hover{transform:scale(1.02);transition: all 0.8s ease-out;}
+
+    .blightworld{background: url('../img/blightworld_bg_blur.jpg') no-repeat center center;}
+    .blightworld:hover{background: url('../img/blightworld_bg.jpg') no-repeat center center;}
+
+    .eraflux{background: url('../img/eraflux_bg_blur.jpg') no-repeat center center;}
+    .eraflux:hover{background: url('../img/eraflux_bg.jpg') no-repeat center center;}
+
+    .honeytoast{background: url('../img/honeytoast_bg_blur.jpg') no-repeat center center;}
+    .honeytoast:hover{background: url('../img/honeytoast_bg.jpg') no-repeat center center;}
 
 }
