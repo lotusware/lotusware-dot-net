@@ -1,0 +1,88 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (max-width : 399px) {
+    .media-1100{display: none; }
+    .media-1300{display:none;}
+    .logo{display:none;}
+    .logomark{height:50px}
+    .neau{padding-left:5px;padding-right:5px; box-shadow:none; background:transparent;margin-left:2px;margin-right:2px;}
+    .lead{font-size:20px;}
+    section{width:80%;
+        transform:skew(0deg,0deg);
+    margin-left:0px;margin-right:0px;}
+        .section-logo,.section-category,.lead{  transform:skew(0deg,0deg);}
+        .section-category, .section-logo,.lead, .note, button{padding: 6px 9px;}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 400px) 
+and (max-width : 599px) {
+    .media-1100{display: none;}
+    .media-1300{display:none;}
+    .logo{display:none;}
+    .logomark{height:50px}
+    .neau{padding-left:5px;padding-right:5px; box-shadow:none; background:transparent;margin-left:2px;margin-right:2px;}
+    .lead{font-size:16px;}
+    .note{font-size: 12px}
+    section{width:80%;
+        transform:skew(0deg,0deg);
+    margin-left:0px;margin-right:0px;}
+    .section-logo,.section-category,.lead{  transform:skew(0deg,0deg);}
+    .section-category, .section-logo,.lead, .note, button{padding: 6px 9px;}
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 600px) 
+and (max-width : 899px) {
+    .media-1300{display:none;}
+    .logo{display:none;}
+    .logomark{height:50px}
+    .lead{font-size:18px;}
+    section{width:80%;
+        transform:skew(0deg,0deg);
+    margin-left:0px;margin-right:0px;}
+    .section-logo,.section-category,.lead{  transform:skew(0deg,0deg);}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 900px) 
+and (max-width : 1099px) {
+    .media-1300{display:none;}
+    .logo{height:50px;}
+    .logomark{display:none;}
+    .lead{font-size:18px;}
+    section{width:70%;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 1100px) 
+and (max-width : 1299px) {
+.media-1300{display:none;}
+    .logo{height:60px;}
+    .logomark{display:none;}
+    .lead{font-size:20px;}
+    section{width:60%;}
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 1300px) 
+and (max-width : 1499px) {
+    .media-1100{display:none;}
+    .logomark{display:none;}
+    .lead{font-size: 20px;}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1500px) {
+    .media-1100{display:none;}
+    .logomark{display:none;}
+
+}
